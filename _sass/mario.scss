@@ -12,10 +12,10 @@ html, body {
 body {
   height: 0;
   background-image:
-    url('https://github.com/Kageetai/mario-background-parallax/blob/master/img/mario.gif?raw=true'),
-    url('https://github.com/Kageetai/mario-background-parallax/blob/master/img/ground.png?raw=true'),
-    url('https://github.com/Kageetai/mario-background-parallax/blob/master/img/bushes.png?raw=true'),
-    url('https://raw.githubusercontent.com/Kageetai/mario-background-parallax/master/img/back.png?raw=true');
+    url('/assets/images/mario.gif'),
+    url('/assets/images/ground.png'),
+    url('/assets/images/bushes.png'),
+    url('/assets/images/back.png');
   background-color: #F8E0B0;
   background-repeat:
     no-repeat,
