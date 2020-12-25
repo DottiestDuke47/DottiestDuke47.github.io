@@ -1,20 +1,20 @@
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 <nav class="sidenav">
   <img src="/assets/images/logo.png" alt="Logo" width="180" height="180"><br>
   <div style="height: 20px;"></div>
 
-    {% for item in site.data.navigation %}
-      <a href="{{ item.link }}" {% if page.url == item.link %}style="background-color: grey;"{% endif %}>{{ item.name }}</a><br>
-    {% endfor %}
+  {% for item in site.data.navigation %}
+    <a href="{{ item.link }}" {% if page.url == item.link %}style="background-color: grey;"{% endif %}>{{ item.name }}</a><br>
+  {% endfor %}
 
-    <div style="height: calc(100% - 520px); position: relative;"></div>
-      <div style="vertical-align: bottom;">
-        <a href="url" style="font-size: small;" class="twitter";>Twitter</a>
-        <a href="url" style="font-size: small;" class="Insta">Instagram</a>
-        <a href="url" style="font-size: small;" class="Github">Github</a>
-        Copyright 2100
-      </div>
+  <div style="height: calc(100% - 520px); position: relative;"></div>
+    <div style="vertical-align: bottom;">
+      <a href="url" style="font-size: small;" onMouseOver="this.style.backgroundColor='rgb(29, 161, 242)'" onMouseOut="this.style.backgroundColor='black'">Twitter</a>
+      <a href="url" style="font-size: small;" onMouseOver="this.style.backgroundColor='Fuchsia'" onMouseOut="this.style.backgroundColor='black'">Instagram</a>
+      <a href="url" style="font-size: small;" onMouseOver="this.style.backgroundColor='grey'" onMouseOut="this.style.backgroundColor='black'">Github</a>
+      Copyright 2100
     </div>
+  </div>
     
   </nav>
 
