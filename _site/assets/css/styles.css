@@ -20,4 +20,10 @@ body { height: 0; background-image: url("/assets/images/mario.gif"), url("/asset
   50% { background-position: left 50% bottom 22px, left -816px bottom 0px, left -508px bottom 22px, left -256px bottom 0px; }
   100% { background-position: left 30% bottom 22px, left -1632px bottom 0px, left -1016px bottom 22px, left -512px bottom 0px; } }
 
+.twitter:hover { background-color: #00aeff; }
+
+.Insta:hover { background-color: #d400ff; }
+
+.Github:hover { background-color: #747474; }
+
 /*# sourceMappingURL=styles.css.map */
