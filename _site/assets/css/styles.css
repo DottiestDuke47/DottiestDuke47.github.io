@@ -1,6 +1,6 @@
 .current { color: green; }
 
-body { font-family: "Lato", sans-serif; padding: 20px; }
+body { font-family: "Lato", sans-serif; font-size: 100%; color: #3d3536; background-color: white; }
 
 .sidenav { height: 100%; width: 200px; position: fixed; z-index: 1; top: 0; left: 0; background-color: #111; overflow-x: hidden; padding-top: 20px; }
 
@@ -11,5 +11,13 @@ body { font-family: "Lato", sans-serif; padding: 20px; }
 .main { margin-left: 200px; /* Same as the width of the sidenav */ }
 
 @media screen and (max-height: 450px) { .sidenav { padding-top: 15px; } .sidenav a { font-size: 18px; } }
+
+html, body { height: 100%; width: 100%; margin: 0; }
+
+body { height: 0; background-image: url("https://github.com/Kageetai/mario-background-parallax/blob/master/img/mario.gif?raw=true"), url("https://github.com/Kageetai/mario-background-parallax/blob/master/img/ground.png?raw=true"), url("https://github.com/Kageetai/mario-background-parallax/blob/master/img/bushes.png?raw=true"), url("https://raw.githubusercontent.com/Kageetai/mario-background-parallax/master/img/back.png?raw=true"); background-color: #F8E0B0; background-repeat: no-repeat, repeat-x, repeat-x, repeat-x; background-position: left 30% bottom 22px, left 0px bottom 0px, left 0px bottom 22px, left 0px bottom 0px; animation: back 15s infinite linear; }
+
+@keyframes back { 0% { background-position: left 30% bottom 22px, left 0px bottom 0px, left 0px bottom 22px, left 0px bottom 0px; }
+  50% { background-position: left 50% bottom 22px, left -816px bottom 0px, left -508px bottom 22px, left -256px bottom 0px; }
+  100% { background-position: left 30% bottom 22px, left -1632px bottom 0px, left -1016px bottom 22px, left -512px bottom 0px; } }
 
 /*# sourceMappingURL=styles.css.map */
