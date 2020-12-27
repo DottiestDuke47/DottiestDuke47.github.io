@@ -10,13 +10,13 @@ html, body {
 }
 
 body {
-  height: 0;
+  height: 100%;
   background-image:
     url('/assets/images/mario.gif'),
     url('/assets/images/ground.png'),
     url('/assets/images/bushes.png'),
     url('/assets/images/back.png');
-  background-color: #b0f0f8;
+  background-color: rgb(176, 240, 248);
   background-repeat:
     no-repeat,
     repeat-x,

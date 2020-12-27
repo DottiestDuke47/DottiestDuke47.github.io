@@ -1,0 +1,34 @@
+<style>
+    .item1 { grid-area: img1; background-position: center center; background-size: 100% auto; background-repeat:no-repeat; background-image: url("../assets/images/img1.jpg");}
+    .item2 { grid-area: img2; background-position: center center; background-size: auto 100%; background-repeat:no-repeat; background-image: url("../assets/images/img2.jpg");}
+    .item3 { grid-area: img3; background-position: center center; background-size: 100% auto; background-repeat:no-repeat; background-image: url("../assets/images/img3.jpg");}
+    .item4 { grid-area: img4; background-position: center center; background-size: 100% auto; background-repeat:no-repeat; background-image: url("../assets/images/img4.jpg");}
+    .item5 { grid-area: img5; background-position: center center; background-size: 100% auto; background-repeat:no-repeat; background-image: url("../assets/images/img5.jpg");}
+    .item6 { grid-area: img6; background-position: center center; background-size: 100% auto; background-repeat:no-repeat; background-image: url("../assets/images/img6.jpg");}
+
+    .grid-container {
+        display: grid;
+        grid-template-areas:
+        'img1 img1 img1 img6 img6 img6'
+        'img2 img2 img3 img3 img4 img4'
+        'img2 img2 img5 img5 img5 img5';
+        grid-gap: 10px;
+        padding: 10px;
+    }
+
+    .grid-container > div {
+        text-align: center;
+        padding: 20px 0;
+        font-size: 30px;
+    }
+</style>
+
+
+<div class="grid-container" style="height: 500px;">
+    <div class="item1"></div>
+    <div class="item2"></div>
+    <div class="item3"></div>  
+    <div class="item4"></div>
+    <div class="item5"></div>
+    <div class="item6"></div>
+</div>

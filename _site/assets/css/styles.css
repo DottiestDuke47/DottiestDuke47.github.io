@@ -14,7 +14,7 @@ body { font-family: "Lato", sans-serif; font-size: 100%; color: #3d3536; backgro
 
 html, body { height: 100%; width: 100%; margin: 0; }
 
-body { height: 0; background-image: url("/assets/images/mario.gif"), url("/assets/images/ground.png"), url("/assets/images/bushes.png"), url("/assets/images/back.png"); background-color: #b0f0f8; background-repeat: no-repeat, repeat-x, repeat-x, repeat-x; background-position: left 30% bottom 22px, left 0px bottom 0px, left 0px bottom 22px, left 0px bottom 0px; animation: back 15s infinite linear; }
+body { height: 100%; background-image: url("/assets/images/mario.gif"), url("/assets/images/ground.png"), url("/assets/images/bushes.png"), url("/assets/images/back.png"); background-color: #b0f0f8; background-repeat: no-repeat, repeat-x, repeat-x, repeat-x; background-position: left 30% bottom 22px, left 0px bottom 0px, left 0px bottom 22px, left 0px bottom 0px; animation: back 15s infinite linear; }
 
 @keyframes back { 0% { background-position: left 30% bottom 22px, left 0px bottom 0px, left 0px bottom 22px, left 0px bottom 0px; }
   50% { background-position: left 50% bottom 22px, left -816px bottom 0px, left -508px bottom 22px, left -256px bottom 0px; }
